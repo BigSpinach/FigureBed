@@ -1,0 +1,18 @@
+{
+  "picBed": {
+    "uploader": "github", 
+    "smms": {
+      "token": "*********************"    // 从 GitHub获取的 token
+    },
+    "current": "github",
+    "transformer": "path",
+    "github": {
+      "repo": "BigSpinach/FigureBed",     //   GitHub的用户名/仓库名
+      "branch": "master",
+      "token": "**************** ",
+      "path": "Typora-img/",   //存储在GitHub仓库的文件夹位置  记得加/，不加'/' 则表示给每个文件加的前缀文字
+      "customUrl": "https://github.com/BigSpinach/FigureBed.git"//GitHub 的仓库地址，好像（未测试）可以随便起（别名）
+    }
+  },
+  "picgoPlugins": {} // 为插件预留
+}
